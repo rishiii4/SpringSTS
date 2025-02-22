@@ -12,4 +12,11 @@ public class SpringController {
         return "index";
     }
 
+    // Display "Hello from BridgeLabz" in a Web Page
+    @GetMapping("/web")
+    public String sayHello(){
+        return "web";
+    }
+
+
 }
